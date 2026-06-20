@@ -1,0 +1,115 @@
+.navbar {
+  background-color: #E31B23 !important; /* Premium Automotive Red */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* Reduced left padding from 24px to 4px to pull the logo close to the screen edge */
+  padding: 10px 24px 10px 4px; 
+  position: relative;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  /* Use margins to position your logo precisely: (top right bottom left) */
+  margin: 0px 20px 0px -5px; 
+}
+
+/* Nav Desktop Menu Links */
+.desktop-menu {
+  display: flex;
+  gap: 8px;
+}
+
+.navbar-button {
+  margin-right: 10px;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  transition: color 0.3s ease !important;
+}
+
+.navbar-button:hover {
+  color: #111111 !important; /* Dark contrast contrast on hover */
+}
+
+/* Clean White Input Container */
+.search {
+  position: relative;
+  border-radius: 4px;
+  background-color: white;
+  display: flex; 
+  align-items: center; 
+  padding: 2px 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.search-icon-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  color: #666666;
+}
+
+.input-root {
+  color: #111111;
+  font-size: 0.9rem;
+}
+
+/* Upgraded Mechanical Search Button */
+.search-button {
+  margin-left: 8px; 
+  background: linear-gradient(45deg, #111111, #444444) !important; /* Metallic Dark Gray */
+  color: #ffffff !important; 
+  height: 32px; 
+  font-size: 0.8rem; 
+  text-transform: uppercase;
+  font-weight: bold !important;
+  border-radius: 4px !important;
+}
+
+.search-button:hover {
+  background: #000000 !important;
+}
+
+/* Real-Time Search Results Dropdown */
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  color: #111111;
+  z-index: 100;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  max-height: 250px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+}
+
+.search-result-item {
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s ease;
+}
+
+.search-result-item:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+  color: #E31B23;
+}
+
+.no-results {
+  padding: 10px 14px;
+  color: #888888;
+  font-style: italic;
+}
+
+/* Mobile Icon Customization */
+.menu-icon {
+  color: #ffffff !important;
+}

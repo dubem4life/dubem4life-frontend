@@ -1,0 +1,150 @@
+.footer2 {
+  background-color: #0b0f19 !important; /* Premium dark background */
+  padding: 40px 40px 20px 40px; 
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.footer2-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  border-bottom: 1px solid #1f2937; /* Clean separator line */
+  padding-bottom: 30px;
+}
+
+.footer2-logo-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer2-logo {
+  height: auto;
+  width: 100%; 
+  max-width: 280px; 
+}
+
+.footer2-center {
+  flex: 1.5;
+  min-width: 280px;
+  text-align: left;
+}
+
+.contact-info {
+  font-size: 15px; 
+  font-weight: 500;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px; 
+}
+
+.contact-item svg {
+  color: #E31B23; /* Matching your true navbar red */
+  margin-top: 4px;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.contact-item p {
+  margin: 0 0 0 12px; 
+  text-align: left; 
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+
+.footer2-links {
+  text-align: left;
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer2-links h3 {
+  margin-top: 0;
+  margin-bottom: 15px; 
+  font-size: 18px; 
+  color: #E31B23; /* Changed from yellowgreen to matching brand red */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer2-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer2-links li {
+  margin-bottom: 8px; 
+}
+
+/* Fixes the raw blocky buttons from image_bdaa92.jpg */
+.footer2-link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #ecf0f1;
+  font-size: 15px; 
+  cursor: pointer;
+  transition: color 0.2s ease;
+  text-align: left;
+}
+
+.footer2-link-button:hover {
+  color: #E31B23; 
+}
+
+/* Centered social link styling just above copyright */
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  margin: 25px 0 15px 0;
+  align-items: center; 
+}
+
+.social-media-icons p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+  color: #9ca3af;
+}
+
+.social-icon {
+  width: 36px !important; 
+  height: 36px !important; 
+  background-color: #111827 !important;
+  border: 1px solid #374151 !important;
+  transition: all 0.3s ease !important;
+}
+
+.social-icon svg {
+  font-size: 16px;
+}
+
+.social-icon.facebook { color: #1877f2; }
+.social-icon.x { color: #ffffff; }
+.social-icon.whatsapp { color: #25d366; }
+.social-icon.gmail { color: #ea4335; }
+
+.social-icon:hover {
+  transform: translateY(-3px);
+  background-color: #E31B23 !important;
+  border-color: #E31B23 !important;
+}
+.social-icon:hover svg {
+  color: white !important;
+}
+
+.footer2-copy {
+  margin: 15px 0 0 0; 
+  font-size: 13px;
+  color: #6b7280;
+}
