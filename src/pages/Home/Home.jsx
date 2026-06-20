@@ -75,7 +75,7 @@ const Home = () => {
               Specialists In <span> ECM / ECU </span> (Brainbox), Immobilizers, Smart Keys & Auto Electronics.
             </h1>
             <p>
-              DBM4 provides professional diagnosis, repair, replacement and programming of
+             DUBEM4LIFE provides professional diagnosis, repair, replacement and programming of
               Engine Control Modules (ECU/ECM), Brainboxes, Airflow Meters, Smart Keys, Immobilizers,
               Fuel Pump Modules, Fuse Boxes and many other automotive electronic systems.
             </p>
