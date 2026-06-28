@@ -18,7 +18,7 @@ import {
 const services = [
   {
     icon: <FaShoppingCart />,
-    title: "Brainbox Sales & Supply",
+    title: "ECM / ECU (Brainbox)",
     desc: "Marketing and Sales of brand new and clean tested pre-owned Engine Control Modules (ECM/ECU) for all vehicle brands with warranty.",
   },
   {
@@ -173,7 +173,7 @@ const Home = () => {
       <section className="brands section">
         <div className="section-title">
           <span>VEHICLE BRANDS</span>
-          <h2>Brainboxes and Modules for All Major Brands</h2>
+          <h2>ECM / ECU (Brainbox) and Modules for All Major Brands</h2>
           <p>We supply, match, and program electronic inventory for a wide range of Asian, European, and American vehicles.</p>
         </div>
         <div className="brands-grid">
